@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport"
+		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
+	<title>Happy Diwali by N.S.N</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			background: linear-gradient(white 0%, #FF007F);
+		}
+
+		.welcome {
+			width: 100%;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			font-size: 50px;
+		}
+
+		.welcome .wel {
+			font-family: cursive;
+			color: red;
+			text-shadow: 2px 2px 4px gray;
+		}
+
+		.come {
+			font-family: cursive;
+			color: #000000;
+			text-shadow: 2px 2px 4px gray;
+		}
+
+		.nsn {
+			margin: 0;
+			padding: 0;
+			justify-content: center;
+			text-align: center;
+			align-items: center;
+		}
+
+		.nsn h3 {
+			margin: 10px;
+			padding: 5px;
+			color: #FF6E00;
+			font-weight: bolder;
+			position: relative;
+			border-radius: 5px;
+			border: 1px solid #FF6E00;
+			box-shadow: 0px 1px 2px gray;
+			letter-spacing: 4px;
+			font-size: 15px;
+			text-shadow: 0px 0px 2px white;
+		}
+
+		.happy {
+			font-size: 50px;
+			color: #FF007C;
+			text-shadow: 4px 4px 5px gray;
+			font-variant: small-caps;
+		}
+
+		.diwali {
+			font-size: 50px;
+			color: #FFC500;
+			text-shadow: 4px 4px 5px gray;
+			font-variant: small-caps;
+		}
+
+		.acont {
+			width: 100%;
+			height: fit-content;
+			overflow: hidden;
+			display: flex;
+			justify-content: center;
+			text-align: center;
+			align-items: center;
+			flex-wrap: wrap;
+		}
+
+		.boxs {
+			margin: 30px 0 30px 0;
+			width: 100%;
+			height: 150px;
+			position: relative;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-wrap: wrap;
+			overflow: hidden;
+			padding: 10px;
+		}
+
+		.box1 {
+			width: 100px;
+			height: 100px;
+			background-color: #09005D;
+			position: relative;
+			animation-name: redbox;
+			animation-duration: 5s;
+			animation-delay: 4s;
+			animation-iteration-count: 2;
+			transform: rotate(45deg);
+			box-shadow: 2px 2px 4px gray;
+		}
+
+		.box2 {
+			width: 100px;
+			height: 100px;
+			background-color: #FF00A5;
+			position: relative;
+			animation-name: redbox;
+			animation-duration: 5s;
+			animation-delay: 4s;
+			animation-iteration-count: 2;
+			transform: rotate(45deg);
+			box-shadow: 2px 2px 4px gray;
+			z-index: 1;
+		}
+
+		.box3 {
+			width: 100px;
+			height: 100px;
+			background-color: gold;
+			position: relative;
+			animation-name: redbox;
+			animation-duration: 5s;
+			animation-delay: 4s;
+			animation-iteration-count: 2;
+			transform: rotate(45deg);
+			box-shadow: 2px 2px 4px gray;
+		}
+
+		@keyframes redbox {
+			0% {
+				transform: rotate(45deg);
+			}
+
+			50% {
+				transform: rotate(90deg);
+			}
+
+			100% {
+				transform: rotate(405deg);
+			}
+		}
+
+		.namecont {
+			width: 100%;
+			height: fit-content;
+			text-align: center;
+			justify-content: center;
+			align-items: center;
+			display: flex;
+			position: relative;
+		}
+
+		.name {
+			margin-top: -125px;
+			max-width: 100px;
+			height: 100px;
+			position: absolute;
+			vertical-align: middle;
+			opacity: 0.0;
+			animation-name: name;
+			animation-duration: 100s;
+			animation-delay: 4s;
+			text-shadow: 2px 2px 3px gray;
+			overflow: hidden;
+			font-size: 10px;
+			font-weight: bolder;
+			text-transform: uppercase;
+			z-index: 2;
+		}
+
+		@keyframes name {
+			0% {
+				opacity: 0.0;
+			}
+
+			2% {
+				opacity: 0.5;
+			}
+
+			5% {
+				opacity: 1.0;
+			}
+
+			6% {
+				opacity: 0.0;
+			}
+
+			6.1% {
+				opacity: 1.0;
+				color: rgb(193, 193, 193);
+			}
+
+			6.2% {
+				opacity: 0.0;
+			}
+
+			6.4% {
+				opacity: 1.0;
+			}
+
+			6.8% {
+				opacity: 0.0;
+			}
+
+			7% {
+				opacity: 1.0;
+				color: blue;
+			}
+
+			7.1% {
+				opacity: 1.0;
+			}
+
+			7.2% {
+				opacity: 0.0;
+			}
+
+			7.4% {
+				opacity: 1.0;
+			}
+
+			7.8% {
+				opacity: 0.0;
+			}
+
+			8% {
+				opacity: 1.0;
+				color: #FF5C00;
+			}
+
+			8.1% {
+				opacity: 0.0;
+			}
+
+			8.2% {
+				opacity: 1.0;
+			}
+
+			8.4% {
+				opacity: 1.0;
+			}
+
+			8.8% {
+				opacity: 0.0;
+			}
+
+			9% {
+				opacity: 1.0;
+				color: #00F2FF;
+			}
+
+			11% {
+				opacity: 0.0;
+			}
+
+			13% {
+				opacity: 1.0;
+			}
+
+			25% {
+				opacity: 0.0;
+			}
+
+			30% {
+				opacity: 1.0;
+			}
+
+			50% {
+				opacity: 0.7;
+			}
+
+			55% {
+				opacity: 1.0;
+				color: black;
+			}
+
+			95% {
+				opacity: 1.0;
+				color: white;
+			}
+
+			100% {
+				opacity: 0.0;
+				color: white;
+			}
+		}
+
+		.goodmorning {
+			padding: 20px;
+			font-weight: bolder;
+			font-size: 30px;
+			text-shadow: 2px 1px 2px gray,
+				2px 1px 4px gray;
+			color: white;
+			letter-spacing: 5px;
+			animation-name: name;
+			animation-duration: 15s;
+		}
+
+		.clk {
+			width: 100%;
+			height: auto;
+			justify-content: center;
+			display: flex;
+			text-align: center;
+			align-items: center;
+		}
+
+		.clock {
+			display: flex;
+			width: 300px;
+			height: auto;
+			position: relative;
+			font-size: 60px;
+			color: #FFFFFF;
+			text-align: center;
+			align-items: center;
+		}
+
+		.co1 {
+			position: relative;
+			margin: 0px 5px;
+			background: #00E2FF;
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			align-items: center;
+		}
+
+		.co2 {
+			position: relative;
+			margin: 0px 5px;
+			background: #00E2FF;
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			align-items: center;
+		}
+
+		.co3 {
+			position: relative;
+			margin: 0px 5px;
+			background: #FF004D;
+			width: 100px;
+			height: 100px;
+			text-align: center;
+			align-items: center;
+		}
+
+		.hms {
+			font-size: 15px;
+			font-weight: 500;
+			position: absolute;
+			left: 0;
+			top: 80%;
+			width: 100%;
+			height: 20px;
+			background: gray;
+			text-transform: uppercase;
+		}
+
+		.contg {
+			width: 100%;
+			height: fit-content;
+			overflow: hidden;
+		}
+
+		.gradient {
+			width: 100%;
+			place-items: center;
+			justify-content: center;
+			margin: 2em 0px;
+			border-radius: 20px;
+			background: linear-gradient(45deg, #FFE600, #FF009F);
+			animation: helo 10s linear infinite;
+		}
+
+		.back {
+			margin: 0;
+			padding: 0;
+			place-items: center;
+			background: #333E3C;
+			position: relative;
+			width: calc(100% - 5px);
+			max-height: auto;
+			min-height: 5px;
+			z-index: 999;
+			border-radius: 20px;
+		}
+
+		.hello {
+			width: 100%;
+			height: fit-content;
+			padding: 10px;
+			position: relative;
+			font-size: 1.5em;
+			text-align: center;
+			align-items: center;
+			text-transform: capitalize;
+			color: white;
+			background: linear-gradient(45deg, #FFE600, #FF009F);
+			-webkit-background-clip: text;
+			background-clip: text;
+			-webkit-text-fill-color: transparent;
+			animation: helo 10s linear infinite;
+		}
+
+		@keyframes helo {
+			100% {
+				filter: hue-rotate(360deg);
+			}
+		}
+
+		.year {
+			color: #00CCFF;
+			font-size: 25px;
+			text-align: center;
+		}
+
+		.con {
+			width: 100%;
+			height: fit-content;
+			margin: 0;
+			padding: 5px;
+			overflow: hidden;
+		}
+
+		.shadow {
+			position: relative;
+			width: 100%;
+			background: linear-gradient(0deg, #FF007A, #FF4C00);
+			color: green;
+			word-wrap: break;
+			font-size: 40px;
+			font-family: cursive;
+			padding: 15px;
+			text-align: center;
+			-webkit-text-stroke: 0.5px gold;
+			color: transparent;
+			word-wrap: break-word;
+		}
+
+		.shadow:before,
+		.shadow:after {
+			content: ' ';
+			position: absolute;
+			width: calc(100% + 4px);
+			height: calc(100% + 4px);
+			background: linear-gradient(45deg, #FFD000, #FF000A, #FF00BC, #2200FF, #81FF00, #FFD000, #FF000A, #FF00BC, #2200FF, #81FF00);
+			background-size: 400%;
+			z-index: -1;
+			top: -2px;
+			left: -2px;
+			animation: colors 20s linear infinite;
+
+		}
+
+		.shadow:after {
+			filter: blur(8px);
+		}
+
+		@keyframes colors {
+
+			0%,
+			100% {
+				background-postion: 0 0;
+			}
+
+			50% {
+				background-position: 400% 0;
+			}
+
+			100% {
+				background-position: 0 0;
+			}
+		}
+
+		.feed {
+			width: 100%;
+			height: auto;
+			overflow: hidden;
+			position: relative;
+			text-align: center;
+			margin: 0;
+			word-wrap: break-word;
+			padding: 35px;
+			font-size: 2em;
+			text-transform: capitalize;
+			text-shadow: 0px 0px 1px gold;
+			font-weight: 500;
+			color: pink;
+		}
+
+		.nsn12 {
+			width: 100%;
+			height: fit-content;
+			overflow: hidden;
+			position: relative;
+		}
+
+		a {
+			position: relative;
+			display: inline-block;
+			color: #81FF00;
+			font-size: 2em;
+			font-family: consolas;
+			text-decoration: none;
+			transition: 0.2s;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			padding: 5px 10px;
+			font-weight: 700;
+		}
+
+		a:hover {
+			color: #FF0084;
+			background: #81FF00;
+			box-shadow: 0px 0px 10px #81FF00, 0px 0px 40px #81FF00, 0px 0px 80px #81FF00;
+		}
+
+		.naresh {
+			position: relative;
+			width: 100%;
+			margin: 20px 5px;
+			text-transform: uppercase;
+			color: white;
+			font-weight: bold;
+			font-size: 30px;
+			letter-spacing: 5px;
+		}
+
+		.naresh:hover {
+			letter-spacing: 15px;
+			transition: 2s ease;
+		}
+
+		.ccont1 {
+			position: relative;
+			padding: 50px;
+			width: 100%;
+			height: fit-content;
+			align-items: center;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			overflow: hidden;
+		}
+
+		.circle {
+			position: relative;
+			min-width: 400px;
+			min-height: 400px;
+			background: #ff00a2;
+			border-radius: 50%;
+			border: 5px solid #fff;
+			box-shadow: 0 20px 100px rgba(0, 0, 0, .5);
+		}
+
+		.circle::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			border: 10px dotted #fff;
+			box-sizing: border-box;
+			border-radius: 50%;
+			transform: scale(1.1);
+			animation: rotate 30s linear infinite;
+		}
+
+		.light {
+			position: absolute;
+			bottom: 0;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 240px;
+			height: 120px;
+			background: #ff00a2;
+			border-bottom-left-radius: 120px;
+			border-bottom-right-radius: 120px;
+			box-shadow: 0 0 25px rgba(0, 0, 0, .5);
+			border: 5px solid #fff;
+		}
+
+
+		@keyframes rotate {
+			0% {
+				transform: scale(1.1) rotate(0deg);
+			}
+
+			100% {
+				transform: scale(1.1) rotate(360deg);
+			}
+		}
+
+		.circle h1 {
+			margin: 40px 0 0;
+			padding: 0;
+			text-align: center;
+			color: #fff;
+			font-size: 40px;
+			font-family: sans-serif;
+			line-height: 70px;
+			text-shadow: 0 15px 5px rgba(0, 0, 0, .2);
+		}
+
+		.circle h1 span {
+			font-size: 100px;
+			font-family: cursive;
+		}
+
+		.mo-fire {
+			width: 100px;
+			height: auto;
+			position: absolute;
+			left: 50%;
+			margin-left: -70px;
+			top: -150px;
+		}
+
+		.mo-fire svg {
+			width: 100%;
+			height: auto;
+			position: relative
+		}
+
+		.flame {
+			animation-name: flamefly;
+			animation-duration: 2s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+			opacity: 0;
+			transform-origin: 50% 50% 0;
+		}
+
+		.flame.one {
+			animation-delay: 1s;
+			animation-duration: 3s;
+		}
+
+		.flame3.two {
+			animation-duration: 5s;
+			animation-delay: 1s;
+		}
+
+		.flame-main {
+			animation-name: flameWobble;
+			animation-duration: 3s;
+			animation-timing-function: linear;
+			animation-iteration-count: infinite;
+		}
+
+		.flame-main.one {
+			animation-duration: 4s;
+			animation-delay: 1s;
+		}
+
+		.flame-main.two {
+			animation-duration: 3s;
+			animation-delay: 2s;
+		}
+
+		.flame-main.three {
+			animation-duration: 2.1s;
+			animation-delay: 3s;
+		}
+
+		.flame-main.four {
+			animation-duration: 3.2s;
+			animation-delay: 4s;
+		}
+
+		.flame-main.five {
+			animation-duration: 2.5s;
+			animation-delay: 5s;
+		}
+
+		@keyframes flameWobble {
+			50% {
+				transform: scale(1, 1.2) translate(0, -30px) rotate(-2deg);
+			}
+		}
+
+		@keyframes flamefly {
+			0% {
+				transform: translate(0) rotate(180deg);
+			}
+
+			50% {
+				opacity: 1;
+			}
+
+			100% {
+				transform: translate(-20px, -100px) rotate(180deg);
+				opacity: 0;
+			}
+		}
+	</style>
+	<script src="main.js"></script>
+	<script type="text/javascript">
+		var user = prompt("Please, Enter Your Sweet Nick Name");
+		function show_alert() {
+			alert(user);
+		}
+	</script>
+</head>
+
+<body>
+	<div class="welcome">
+		<span class="wel">WEL</span>
+		<span class="come">COME</span>
+	</div>
+
+	<div class="nsn">
+		<h3>N.S.N</h3>
+	</div>
+
+	<div class="acont">
+		<h1>
+			<span class="happy">Happy </span>
+			<span class="diwali">Diwali</span>
+		</h1>
+		<div class="boxs">
+			<div class="box1">
+			</div>
+			<div class="box2">
+			</div>
+			<div class="box3">
+			</div>
+		</div>
+
+		<div class="namecont">
+			<div class="name">
+				<script type="text/javascript">
+					if (user != null && user != "" && user.length <= 8)
+						document.write("<h2> " + user + "</h2>");
+					else
+						document.write("<h2>...¤...<h2>");
+				</script>
+			</div>
+		</div>
+
+		<div class="goodmorning">
+			<script type="text/javascript">
+				var d = new Date();
+				var hour = d.getHours();
+				var min = d.getMinutes();
+				var sec = d.getSeconds();
+				if (hour >= 6 && hour < 11)
+					document.write("<h3>Good morninG</h3>");
+				else if (hour > 00 && hour < 16)
+					document.write("<h3>GooD AfterNooN</h3>");
+				else if (hour >= 16 && hour <= 18)
+					document.write("<h3>GooD EveninG</h3>");
+				else
+					document.write("<h3>BE HAPPY</h3>");
+			</script>
+		</div>
+		<div class="clk">
+			<div class="clock">
+				<div class="co1"><span id="hour">00</span><span class="hms">hours</span></div>
+				<div class="co2"><span id="min">00</span><span class="hms">minutes</span></div>
+				<div class="co3"><span id="sec">00</span><span class="hms">seconds</span></div>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			function clock() {
+			var d = new Date();
+			var h = d.getHours();
+			var m = d.getMinutes();
+			var s = d.getSeconds();
+
+			var hours = document.getElementById("hour");
+			var minutes = document.getElementById("min");
+			var seconds = document.getElementById("sec");
+
+			hours.innerHTML = h;
+			minutes.innerHTML = m;
+			seconds.innerHTML = s;
+
+			var interval = setInterval(clock, 1000);
+			}
+
+			clock()
+		</script>
+		<div class="contg">
+			<div class="gradient">
+				<div class="back">
+					<div class="hello">
+						<script type="text/javascript">
+							if (user != null && user != "")
+								document.write("<h2>Hello " + user + "</h2>");
+							else
+								document.write("<h4>Please open it in Chrome or Standard Browser. Otherwise Refersh and Enter your Sweet Nick Name.<h4>");
+						</script>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="con">
+		<div class="shadow">
+			<p>Let's celebrate the festival in the true sense by spreading joy and light up the world of others.
+				<br />Have
+				a happy, safe and blessed Diwali!! May the beauty of the festival of lights fill your home with
+				happiness
+				and may the new year bring joy, peace, and prosperity in your life. <br />Wish you and family a Very
+				Happy
+				Diwali!! in Digital Way <br />
+				<span class="year">2020</span>
+				<br />
+				<span class="year">2021</span>
+				<br />
+				<span class="year">2022</span>
+				<br /> This page is created in 2020 but it can't be share with you because some server hosting problem.
+				<br /> Today it complete its 2 year. <br /> And Don't Share it because it is made only for special
+				persons like you.
+			</p>
+		</div>
+	</div>
+	<div class="nsn12">
+		<div class="feed">
+			If you like and impressed by this page so please send a mail and say something what you think about this
+			code
+			and give me suggestion. And don't forget to attach your smiley and pretty photo because your smile and
+			happiness
+			is too important then else.<br />I am waiting...<br />Just Click.
+		</div>
+
+		<a href="MAILTO:nsnaruka06@gmail.com">
+			E-Mail to N.S.N
+		</a>
+		<div class="naresh">N.S.N</div>
+	</div>
+	<div class="ccont1">
+		<div class="circle">
+			<h1>Happy <br /><span>Diwali</span></h1>
+			<div class="light">
+				<div class="mo-fire">
+					<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+						xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="125px" height="189.864px"
+						viewBox="0 0 125 189.864" enable-background="new 0 0 125 189.864" xml:space="preserve">
+						<path class="flame-main" fill="#F36E21" d="M76.553,186.09c0,0-10.178-2.976-15.325-8.226s-9.278-16.82-9.278-16.82s-0.241-6.647-4.136-18.465
+					  c0,0,3.357,4.969,5.103,9.938c0,0-5.305-21.086,1.712-30.418c7.017-9.333,0.571-35.654-2.25-37.534c0,0,13.07,5.64,19.875,47.54
+					  c6.806,41.899,16.831,45.301,6.088,53.985" />
+						<path class="flame-main one" fill="#F6891F"
+							d="M61.693,122.257c4.117-15.4,12.097-14.487-11.589-60.872c0,0,32.016,10.223,52.601,63.123
+					  c20.585,52.899-19.848,61.045-19.643,61.582c0.206,0.537-19.401-0.269-14.835-18.532S57.576,137.656,61.693,122.257z" />
+						<path class="flame-main two" fill="#FFD04A" d="M81.657,79.192c0,0,11.549,24.845,3.626,40.02c-7.924,15.175-21.126,41.899-0.425,64.998
+					  C84.858,184.21,125.705,150.905,81.657,79.192z" />
+						<path class="flame-main three" fill="#FDBA16" d="M99.92,101.754c0,0-23.208,47.027-12.043,80.072c0,0,32.741-16.073,20.108-45.79
+					  C95.354,106.319,99.92,114.108,99.92,101.754z" />
+						<path class="flame-main four" fill="#F36E21" d="M103.143,105.917c0,0,8.927,30.753-1.043,46.868c-9.969,16.115-14.799,29.041-14.799,29.041
+					  S134.387,164.603,103.143,105.917z" />
+						<path class="flame-main five" fill="#FDBA16"
+							d="M62.049,104.171c0,0-15.645,67.588,10.529,77.655C98.753,191.894,69.033,130.761,62.049,104.171z" />
+						<path class="flame" fill="#F36E21"
+							d="M101.011,112.926c0,0,8.973,10.519,4.556,16.543C99.37,129.735,106.752,117.406,101.011,112.926z" />
+						<path class="flame one" fill="#F36E21"
+							d="M55.592,126.854c0,0-3.819,13.29,2.699,16.945C64.038,141.48,55.907,132.263,55.592,126.854z" />
+						<path class="flame two" fill="#F36E21"
+							d="M54.918,104.595c0,0-3.959,6.109-1.24,8.949C56.93,113.256,52.228,107.329,54.918,104.595z" />
+					</svg>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+
+</html>

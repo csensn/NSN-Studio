@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>N.S.N Login</title>
+  <!-- HTML Comment  -->
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" type="text/javascript" charset="utf-8"></script>
+ </head>
+<body>
+   <center>
+     <div class="ring">
+       <h1>N.S.N</h1>
+        <div class="circle1">
+         <div class="circle2">
+          <form action="server.php" onsubmit="return validate_form(this);" method="post">
+            <div class="name">
+              <input type="text" id="username" required="">
+              <label>Name</label>
+           </div>
+           <div class="name">
+             <input type="text" id="email" required="@">
+             <label>E-mail</label>
+           </div>
+           <div class="name">
+             <input type="password" id="password" required="">
+             <label>Password</label>
+           </div>
+           <a onclick="return validate_form(this);">
+             <span></span>
+             <span></span>
+             <span></span>
+             <span></span>
+             <input type="submit" name="submit" value="Login" />
+            </a>  
+         </form>
+         </div>
+        </div>
+     </div>
+     <div class="entery"><span class="n">N</span>ew<br>E<span class="n">n</span>tery Available i<span class="n">n</span> 2030.</div>
+   </center>
+   <div id="path"></div>
+   <div id="bar"></div>
+   <script type="text/javascript" charset="utf-8">
+     let progress = document.getElementById('bar');
+     let totalHeight = document.body.scrollHeight - window.innerHeight;
+     window.onscroll = function() {
+     let progressHeight = (window.pageYOffset / totalHeight) * 100;
+     progress.style.height = progressHeight + "%";
+     }
+   </script>
+ </body>
+</html>

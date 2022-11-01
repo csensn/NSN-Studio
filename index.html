@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>N.S.N Studio</title>
+        <!-- HTML Comment  -->
+        <link rel="stylesheet" href="indexstyle.css">
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+        <script src="main.js" type="text/javascript" charset="utf-8"></script>
+        <script src="function.js" type="text/javascript" charset="utf-8"></script>
+    </head>
+    <body>
+        <div class="header">
+        <h1><span class="wel">N.S.N</span> <span class="come">Studio</span></h1>
+        <hr/>
+        <hr />
+        </div>
+        <div class="hr1">
+        	</div>
+        <div class="mcontainer">
+            <a href="#" class="menu">
+                <span class="icon"></span>
+                <span class="icon"></span>
+                <span class="icon"></span>
+            </a>
+            <ui class="navitems">
+                <li>
+                    <a href="#">
+                        <span style="--g:1">Home</span>
+                        <i class="fa fa-home" style="--i:i"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span style="--g:2">Diwali</span>
+                        <i class="fa fa-check" style="--i:i"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span style="--g:3">Movies</span>
+                        <i class="fa fa-video-camera" style="--i:i"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span style="--g:4">Subscribe</span>
+                        <i class="fa fa-youtube-play" style="--i:i"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span style="--g:4">About</span>
+                        <i class="fa fa-eye" style="--i:i"></i>
+                    </a>
+                </li>
+            </ui>
+        </div>
+       
+        <div class="cont">
+            <div class="btnn"><a href="#">Movies</a></div>  
+            <div class="btnn"><a href="#">Mp3 Songs</a></div>   
+            <div class="btnn"><a href="#">DIWALI</a></div>
+        </div>
+        <div class="cont">
+            <div class="btnn"><a href="#">Login</a></div>
+            <div class="btnn"><a href="#">Signup</a></div>   
+            <div class="btnn"><a href="#">Subscribe</a></div>    
+        </div>
+        <div class="hr">
+        	</div>
+        <div class="container">
+            <div class="box">
+                <span></span>
+                <div class="content">
+                    <h2>Sajna Song</h2>
+                    <img src="img/Sajna.jpg" alt="" class="photo">
+                    <a href="content1.html">Download Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <span></span>
+                <div class="content">
+                    <h2>Tadap Song</h2>
+                    <img src="img/tadap.jpg" alt="" class="photo">
+                    <a href="#">Download Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <span></span>
+                <div class="content">
+                    <h2>What Ve Song</h2>
+                    <img src="img/what ve.jpg" alt="" class="photo">
+                    <a href="page.html">Download Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="box">
+                <span></span>
+                <div class="content">
+                    <h2>Akhil New Song</h2>
+                    <img src="img/akhil.jpg" alt="" class="photo">
+                    <a href="#">Download Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <span></span>
+                <div class="content">
+                    <h2>Boom Boom</h2>
+                    <img src="img/boom.jpg" alt="" class="photo">
+                    <a href="#">Download Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <span></span>
+                <div class="content">
+                    <h2>Jug Jug Jeeve</h2>
+                    <img src="img/jeeve.jpg" alt="" class="photo">
+                    <a href="#">Download Now</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="boxn">
+                <span></span>
+                <div class="content">
+                    
+                    <img src="img/gayi.jpg" alt="" class="wphoto">
+                    
+                </div>
+            </div>
+            <div class="boxn">
+                <span></span>
+                <div class="content">
+                    <img src="img/gayi.jpg" alt="" class="wphoto">
+                </div>
+            </div>
+          </div>
+		<footer class="footer">
+			<i class='fa fa-home'></i><a href="#">Home </a>
+			<a href="#"> YouTube </a>
+			<a href="#"> Instagram </a>
+			<a href="#"> Facebook </a>
+			<a href="#"> ShareChat </a>
+			<a href="#"> Telegram </a>
+			<a href="#"> Private Policy </a>
+		</footer>
+        <script>
+            var toggleClick = document.querySelector(".menu");
+            var container = document.querySelector(".mcontainer");
+            toggleClick.addEventListener('click', ()=> {
+                toggleClick.classList.toggle('active');
+                container.classList.toggle('active');
+            } )
+        </script>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    </body>
+</html>
